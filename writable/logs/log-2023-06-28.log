@@ -1,0 +1,348 @@
+INFO - 2023-06-28 13:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 13:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 13:32:51 --> Undefined variable $validasi
+in APPPATH\Views\mahasiswa\tambahdata.php on line 8.
+ 1 APPPATH\Views\mahasiswa\tambahdata.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validasi', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\tambahdata.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\tambahdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/mahasiswa/tambahdata', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(48): view('/mahasiswa/tambahdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->tambahdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+INFO - 2023-06-28 14:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:56:00 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 14:57:46 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 14:57:48 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 14:57:49 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 14:57:50 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:00:31 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:00:33 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:00:46 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:01:37 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:01:38 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+INFO - 2023-06-28 15:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 15:26:16 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:26:25 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:26:26 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:31:41 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:31:43 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:31:44 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+INFO - 2023-06-28 15:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 15:31:59 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:38:59 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:39:01 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:39:02 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:39:02 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:39:03 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+CRITICAL - 2023-06-28 15:39:03 --> Undefined variable $session
+in APPPATH\Views\mahasiswa\datamhs.php on line 16.
+ 1 APPPATH\Views\mahasiswa\datamhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mahasiswa\\app\\Views\\mahasiswa\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(37): view('mahasiswa/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mahasiswa\\public\\index.php')
+INFO - 2023-06-28 15:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 15:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 16:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 17:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 18:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
